@@ -1,0 +1,30 @@
+{
+  "name": "js-promise-methods",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build index.html --public-url /JS-Promise-methods/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizakKhona/JS-Promise-methods.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizakKhona/JS-Promise-methods/issues"
+  },
+  "homepage": "https://LizakKhona.github.io/JS-Promise-methods/",
+  "description": "",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
